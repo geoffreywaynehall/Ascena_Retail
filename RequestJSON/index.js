@@ -1,24 +1,3 @@
-/*
-Assignement:
-
-HTML: Complete the HTML to have semantic and compliant markups. ==COMPLETE==
-
-JAVASCRIPT: Dynamically add a user to the users list.
-- Highlight the email input when a user enters an invalid email address and display following message: "please enter a valid email address" in red. ==COMPLETE==
-- Use the add_user function to submit the user's data.
-- If the ajax request returns an error, display the error message in red.
-- Display the newly added user in the users list when the request was successful.
-- Do not use any libraries e.g. bootstrap ==COMPLETE==
-
-Nice to have:
-- no jQuery or completely rewrite in jQuery  ==COMPLETE==
-- add some CSS3 properties
-- code cleanup/format ==COMPLETE==
-- explain or propose improvements in comments ==COMPLETE==
-- remove inline code/styles
-
-*/
-
 var submit = document.getElementById('submit');
 var users = document.getElementById('users');
 
