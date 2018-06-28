@@ -1,0 +1,23 @@
+.errorMessage {
+  color: red;
+}
+
+body {
+  padding: 10px;
+}
+
+.invalid {
+  border-color: red;
+}
+
+.userListContainer {
+  margin-top: 10px;
+}
+
+.userListContainer h2 {
+  text-decoration: underline;
+}
+
+.user {
+  margin: 5px 0 5px 0;
+}

@@ -1,0 +1,52 @@
+  <!-- Your HTML goes here-->
+  <!-- Make it responsive, ok to increase spacing etc. use your judgement -->
+  <!-- Make the 'why give $50' a responsive modal with any content ==COMPLETE== -->
+  <!-- Do not use any external Libraries, must be coded from scratch e.g. No bootstrap ==COMPLETE== -->
+  <!-- Add some JS functionality e.g. make progress bar move when adding dollar amount ==COMPLETE== -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="index.css">
+	</head>
+	<body>
+		<main>
+			<section class="container">
+				<div class="infoBox" id="infoBox">
+				</div>
+				<div class="pointer" id="pointer">
+				</div>
+				<div class="mainContent">
+					<div class="progressBar" id="progressBar">
+					</div>
+					<section class="projectContent">
+						<p><mark>Only 3 days left</mark> to fund this project</p>
+						<br>
+						<p>Join the <strong>42</strong> other donors who have already supported this project. Every dollar helps</p>
+						<div class="fundingForm">
+							<input class="donationInput" id="donationInput" type="text" name="dollars" maxlength="4" value="50">
+							<button class="submitButton" id="submitButton" type="button">Give Now</button>
+						</div>
+						<p id="modalLink"><em>Why give $50?</em></p>
+					</section>
+				</div>
+				<div class="saveShareButtons">
+				  <button class="saveButton" type="submit">
+				  Save for later
+				  </button>
+				  <button class="friendsButton" type="submit" >
+				  Tell your friends
+				  </button>
+				</div>
+			</section>
+			<section class="fundModal" id="fundModal">
+				<div class="modalContent">
+					<button class="closeButton" id="closeButton">X</button>
+					<h3>Why You Should Donate</h3>
+					<p>Because It's Good</p>
+				</div>
+			</section>
+		</main>
+		<script src="index.js"></script>
+	</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- Remove when jquery REST call is removed -->
+	</head>
+	<body>
+	  <section>
+		<h2>Add a user:</h2>
+		<input type="text" id="name" name="username" placeholder="name" value="" required/>
+		<input type="email" id="email" name="email" placeholder="email" value="" required/>
+		<button id="submit">Add User</button>
+		<section id="errors"></section>
+		<h2>Users:</h2>
+		<ul id="users"></ul>
+	  </section>
+	</body>
+	<script src="index.js"></script>
+</html>
